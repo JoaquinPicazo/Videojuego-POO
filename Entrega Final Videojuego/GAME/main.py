@@ -180,6 +180,7 @@ class normal_zombie():
 		d2 = character.hb[0] + character.hb[2]
 		return d1 > c2 and c1 < d2 and b1 < a2 and a1 > b2
 	
+	# Reposiciona al impactar con el policía
 	def boom(self):
 		print("Sistema: HEMOS REPOSICIONADO AL ZOMBIE NORMAL")
 		self.x = 600
@@ -247,8 +248,9 @@ class boss_max():
 		d2 = character.hb[0] + character.hb[2]
 		return d1 > c2 and c1 < d2 and b1 < a2 and a1 > b2
 	
+	# Reposiciona al impactar con el policía
 	def boom(self):
-		print("Sistema: HEMOS REPOSICIONADO AL ZOMBIE NORMAL")
+		print("Sistema: HEMOS REPOSICIONADO AL ZOMBIE JEFE")
 		self.x = 600
 		self.y = 250
 		self.stp = 0
