@@ -1,8 +1,8 @@
-##################################################################
-#																 #
-# Estudiantes: Tomas Andrade - Jerson Dominguez - Joaquín Picazo #
-#																 #
-##################################################################
+#####################################################################################
+#																 					#
+# Estudiantes: Tomas Andrade - Alonso Carrasco - Jerson Dominguez - Joaquín Picazo  #
+#																					#
+#####################################################################################
 
 # Iniciamos pygame y creamos la pantalla del juego
 import pygame
